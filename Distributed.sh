@@ -1,8 +1,8 @@
 #!/bin/bash
 
 #SBATCH --job-name=taihenry
-#SBATCH --gpus-per-node=${NUM_GPUS}
 #SBATCH --nodes=${NUM_NODES}
+#SBATCH --gpus-per-node=${NUM_GPUS}
 
 module purge                        
 ml cudatoolkit-standalone/11.8.0    
