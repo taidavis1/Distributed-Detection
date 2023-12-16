@@ -20,3 +20,4 @@ elif [[-n "${NUM_NODES}" && "${NUM_NODES}" > 1]]; then
     --pipeline_config_path=/faster_rcnn_resnet101_v1_800x1333_coco17_gpu-8/pipeline.config \
     --model_dir=/content/training \
     --alsologtostderr
+fi
