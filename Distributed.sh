@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#SBATCH --job-name=singlenode
+#SBATCH --job-name=taihenry
 #SBATCH --gpus-per-node=${NUM_GPUS}
 #SBATCH --nodes=${NUM_NODES}
 
